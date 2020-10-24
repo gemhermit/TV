@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>CCTV3</title>
-      <link href="https://tv.bago.ink/live/null/"/>
-      <url>https://tv.bago.ink/live/null/</url>
+      <title>浙江卫视</title>
+      <link href="https://tv.bago.ink/live/6/"/>
+      <url>https://tv.bago.ink/live/6/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>正在准备</p>]]></content>
       
       
       
@@ -17,11 +17,11 @@
     
     
     <entry>
-      <title>浙江卫视</title>
-      <link href="https://tv.bago.ink/live/6/"/>
-      <url>https://tv.bago.ink/live/6/</url>
+      <title>CCTV3</title>
+      <link href="https://tv.bago.ink/live/3/"/>
+      <url>https://tv.bago.ink/live/3/</url>
       
-        <content type="html"><![CDATA[<p>正在准备</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
       
