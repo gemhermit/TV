@@ -18,7 +18,7 @@
 <meta property="og:site_name" content="贝谷TV">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2000-10-17T03:53:00.000Z">
-<meta property="article:modified_time" content="2020-10-17T08:54:13.553Z">
+<meta property="article:modified_time" content="2020-10-24T08:03:10.923Z">
 <meta name="twitter:card" content="summary">
 
   <meta name="keywords" content="">
@@ -33,7 +33,9 @@
   <meta name="apple-mobile-web-app-title" content="贝谷TV">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <link rel="apple-touch-icon" href="/images/favicon.png">
-  <script src="https://cdn.jsdelivr.net/hls.js/latest/hls.min.js"></script>
+  <meta http-equiv ="Content-Security-Policy" content="upgrade-insecure-requests">
+  <link href="//vjs.zencdn.net/7.8.2/video-js.min.css" rel="stylesheet">
+  <script src="//vjs.zencdn.net/7.8.2/video.min.js"></script>
   
   
     <link rel="canonical" href="https://tv.bago.ink/live/0/">
@@ -196,28 +198,30 @@
               <a href="https://www.facebook.com/sharer/sharer.php?u=https://tv.bago.ink/live/0/" target="_blank" class="mdui-ripple">分享到 Facebook</a>
             </li>
             <li class="mdui-menu-item">
-              <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://tv.bago.ink/live/0/&title=直播中国" target="_blank" class="mdui-ripple">分享到 LinkedIn</a>
-            </li>
-            <li class="mdui-menu-item">
               <a href="http://connect.qq.com/widget/shareqq/index.html?site=贝谷TV&title=直播中国&pics=https://tv.bago.ink/images/favicon.png&url=https://tv.bago.ink/live/0/" target="_blank" class="mdui-ripple">分享到 QQ</a>
             </li>
           </ul>
         
       </div>
     </header>
-
-<video id="video" style="width:100%" poster=/images/avatar.png  controls="controls"</video>
-<script>
-  if(Hls.isSupported()) {
-    var video = document.getElementById('video');
-    var hls = new Hls();
-    hls.loadSource('https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001');
-    hls.attachMedia(video);
-    hls.on(Hls.Events.MANIFEST_PARSED,function() {
-      video.play();
-  });
- }
-</script>
+    <video
+    id="my-player"
+    autoplay
+    class="video-js vjs-big-play-centered vjs-16-9"
+    controls
+    preload="auto"
+    style="width:100%"
+    poster="/images/avatar.png"
+    data-setup='{}'>
+  <source src="http://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001" type="application/x-mpegURL"></source>
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a
+    web browser that
+    <a href="https://videojs.com/html5-video-support/" target="_blank">
+      supports HTML5 video
+    </a>
+  </p>
+</video>
 
   
     <footer class="mdui-card-actions">
