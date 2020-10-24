@@ -20,7 +20,7 @@
 <meta property="og:description" content="中央电视台综合频道中央电视台综合频道（频道呼号：CCTV-1 简称：央视综合频道或央视一套）是以新闻为主的综合类电视频道，于1978年5月1日开播 。1958年5月1日，北京电视台开始试验播出 。1978年5月1日，“北京电视台”正式更名为中央电视台。1993年3月1日，起名为“新闻·综合·时政频道”，1995年4月3日，正式更名为“新闻·综合频道”。2003年5月8日，由“新闻·综合频道”改为“">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2000-10-18T06:49:52.000Z">
-<meta property="article:modified_time" content="2020-10-17T13:06:45.101Z">
+<meta property="article:modified_time" content="2020-10-24T05:45:07.981Z">
 <meta name="twitter:card" content="summary">
 
   <meta name="keywords" content="">
@@ -35,9 +35,8 @@
   <meta name="apple-mobile-web-app-title" content="贝谷TV">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <link rel="apple-touch-icon" href="/images/favicon.png">
-  <link href="https://unpkg.com/video.js/dist/video-js.min.css" rel="stylesheet">
-  <script src="https://unpkg.com/video.js/dist/video.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/hls.js/latest/hls.min.js"></script>
+  
   
     <link rel="canonical" href="https://tv.bago.ink/live/1/">
   
@@ -208,24 +207,21 @@
         
       </div>
     </header>
-    <video
-    id="my-player"
-    class="video-js vjs-big-play-centered vjs-16-9" 
-    controls
-    autoplay 
-    preload="auto"
-    poster="/images/backpic/CCTV.png"
-    data-setup='{}'
-    style="width:100%"
-    >
-  <source src="http://keonline.shanghai.liveplay.qq.com/live/program/live/hljwshd/4000000/mnf.m3u8" type="application/x-mpegURL"></source>
-  <p class="vjs-no-js">
-    <a href="https://videojs.com/html5-video-support/" target="_blank">
-      无法播放，请查看帮助
-    </a>
-  </p>
-  </video>
-   &nbsp;&nbsp; <span id="busuanzi_container_page_pv" style="display: none;"> <span id="busuanzi_value_page_pv"></span></span>人正在收看
+
+<video id="video" style="width:100%" poster=http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8  controls="controls"</video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('video');
+    var hls = new Hls();
+    hls.loadSource('http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8');
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+</script>
+
+  
     <footer class="mdui-card-actions">
       
       
@@ -286,7 +282,7 @@
   </div>
 </footer>
   <button id="gotop" class="mdui-fab mdui-fab-fixed mdui-fab-hide mdui-color-theme-accent mdui-ripple"><i class="mdui-icon material-icons">arrow_upward</i></button>
-  <script async src="http://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
   
 <script src="/js/mdui.js"></script>
 <script src="/js/script.js"></script>
