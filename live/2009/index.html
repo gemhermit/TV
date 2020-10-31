@@ -36,6 +36,22 @@
   <link rel="apple-touch-icon" href="/images/favicon.png">
   <link href="//vjs.zencdn.net/7.8.2/video-js.min.css" rel="stylesheet">
   <script src="//vjs.zencdn.net/7.8.2/video.min.js"></script>
+  <script type="text/javascript">
+    function starit(siteUrl, siteName){     
+    try        {       
+    if(document.all){                     
+      window.external.addFavorite(siteUrl,siteName);                
+     }else if(window.sidebar){                     
+                      window.sidebar.addPanel(siteName, siteUrl,'');         
+           }             
+         }  
+    catch (e)        {          
+     alert("加入收藏夹失败，请使用Ctrl+D快捷键进行添加操作!");   
+        }
+      　x=document.getElementById("staro");  
+     　　x.innerHTML="star"; 
+    }
+    </script>
   
   
     <link rel="canonical" href="http://tv.bago.ink/live/2009/">
@@ -170,6 +186,7 @@
           <div class="mdui-card-primary-subtitle"></div>
       </div>
       <div class="mdui-card-menu">
+        <button class="mdui-btn mdui-btn-icon mdui-text-color-white" mdui-menu="{target: '#star', align: 'right'}"  href="javascript:void(0);" rel="sidebar" onclick="starit(document.URL,document.title)"><i class="mdui-icon material-icons" id="staro">star_border</i></button>
         
           <button class="mdui-btn mdui-btn-icon mdui-text-color-white" mdui-menu="{target: '#qrcode', align: 'right'}"><i class="mdui-icon material-icons">devices</i></button>
           <ul class="mdui-menu" id="qrcode">
