@@ -37,7 +37,25 @@
   
     <link rel="canonical" href="http://tv.bago.ink/archives/2020/10/">
   
-
+  <script type="text/javascript">
+    function changev(){
+    
+      var myvideo=videojs("my-player");
+      var myselect = document.getElementById("tvselect");
+    var index=myselect.selectedIndex; 
+    var value = myselect.options[index].value;
+    
+                this.myvideo.reset(); 
+                this.myvideo.src([
+                    {
+                        type: 'application/x-mpegURL',
+                        src: myselect.options[index].value
+                    },
+                ]);
+                this.myvideo.load();
+                this.myvideo.play();
+    }
+  </script>
   
   
 
@@ -101,7 +119,7 @@
       </div>
       <div class="mdui-collapse-item-body mdui-list mdui-list-dense">
         
-        <a class="mdui-ripple sidebar_archives-link" href="/categories/%E5%AE%89%E5%BE%BD/">安徽<span class="mdui-ripple sidebar_archives-count">1</span></a>
+        <a class="mdui-ripple sidebar_archives-link" href="/categories/%E9%A3%8E%E6%99%AF/">风景<span class="mdui-ripple sidebar_archives-count">1</span></a>
         
       </div>
     </div>
@@ -143,6 +161,7 @@
 </aside>
   <main id="main" class="mdui-m-t-5 fadeIn animated">
 
+
   <div class="mdui-chip mdui-m-b-3">
     <span class="mdui-chip-icon mdui-color-theme-accent"><i class="mdui-icon material-icons">place</i></span>
     <span class="mdui-chip-title">归档：2020/10</span>
@@ -160,12 +179,12 @@
       
     </div>
     <div class="mdui-text-center">
-      排云亭
+           排云亭
       <a href="/live/2009/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
     </div>
     <footer class="mdui-card-actions">
       
-        <a class="mdui-ripple article_categories-link" href="/categories/%E5%AE%89%E5%BE%BD/">安徽</a>
+        <a class="mdui-ripple article_categories-link" href="/categories/%E9%A3%8E%E6%99%AF/">风景</a>
       
       
         <a class="mdui-ripple article_tags-link-none-link" href="/tags/%E9%A3%8E%E6%99%AF/" rel="tag">风景</a>
@@ -182,7 +201,7 @@
       
     </div>
     <div class="mdui-text-center">
-      梦笔生花
+           梦笔生花
       <a href="/live/2008/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
     </div>
     <footer class="mdui-card-actions">
@@ -202,7 +221,7 @@
       
     </div>
     <div class="mdui-text-center">
-      卧云峰
+           卧云峰
       <a href="/live/2007/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
     </div>
     <footer class="mdui-card-actions">
@@ -222,7 +241,7 @@
       
     </div>
     <div class="mdui-text-center">
-      始信峰
+           始信峰
       <a href="/live/2006/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
     </div>
     <footer class="mdui-card-actions">
@@ -242,7 +261,7 @@
       
     </div>
     <div class="mdui-text-center">
-      卢村远眺
+           卢村远眺
       <a href="/live/2005/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
     </div>
     <footer class="mdui-card-actions">
@@ -262,7 +281,7 @@
       
     </div>
     <div class="mdui-text-center">
-      西递半山亭
+           西递半山亭
       <a href="/live/2004/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
     </div>
     <footer class="mdui-card-actions">
@@ -282,7 +301,7 @@
       
     </div>
     <div class="mdui-text-center">
-      西递牌坊
+           西递牌坊
       <a href="/live/2003/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
     </div>
     <footer class="mdui-card-actions">
@@ -302,7 +321,7 @@
       
     </div>
     <div class="mdui-text-center">
-      宏村南湖
+           宏村南湖
       <a href="/live/2002/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
     </div>
     <footer class="mdui-card-actions">
@@ -322,7 +341,7 @@
       
     </div>
     <div class="mdui-text-center">
-      宏村月沼
+           宏村月沼
       <a href="/live/2001/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
     </div>
     <footer class="mdui-card-actions">
@@ -333,9 +352,12 @@
     </footer>
   </article>
 
+
 </main>
-  <footer id="footer" class="mdui-m-t-5 mdui-p-y-3 mdui-color-theme">
+<footer id="footer" class="mdui-m-t-5 mdui-p-y-3 mdui-color-theme">
+  
   <div class="mdui-p-y-0 mdui-text-center">
+ 
     
     
     

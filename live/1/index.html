@@ -20,7 +20,7 @@
 <meta property="og:description" content="中央电视台综合频道中央电视台综合频道（频道呼号：CCTV-1 简称：央视综合频道或央视一套）是以新闻为主的综合类电视频道，于1978年5月1日开播 。1958年5月1日，北京电视台开始试验播出 。1978年5月1日，“北京电视台”正式更名为中央电视台。1993年3月1日，起名为“新闻·综合·时政频道”，1995年4月3日，正式更名为“新闻·综合频道”。2003年5月8日，由“新闻·综合频道”改为“">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2000-10-18T06:49:52.000Z">
-<meta property="article:modified_time" content="2020-11-01T03:50:38.729Z">
+<meta property="article:modified_time" content="2020-11-08T03:28:16.030Z">
 <meta name="twitter:card" content="summary">
 
   <meta name="keywords" content="">
@@ -41,7 +41,25 @@
   
     <link rel="canonical" href="http://tv.bago.ink/live/1/">
   
-
+  <script type="text/javascript">
+    function changev(){
+    
+      var myvideo=videojs("my-player");
+      var myselect = document.getElementById("tvselect");
+    var index=myselect.selectedIndex; 
+    var value = myselect.options[index].value;
+    
+                this.myvideo.reset(); 
+                this.myvideo.src([
+                    {
+                        type: 'application/x-mpegURL',
+                        src: myselect.options[index].value
+                    },
+                ]);
+                this.myvideo.load();
+                this.myvideo.play();
+    }
+  </script>
   
   
 
@@ -105,7 +123,7 @@
       </div>
       <div class="mdui-collapse-item-body mdui-list mdui-list-dense">
         
-        <a class="mdui-ripple sidebar_archives-link" href="/categories/%E5%AE%89%E5%BE%BD/">安徽<span class="mdui-ripple sidebar_archives-count">1</span></a>
+        <a class="mdui-ripple sidebar_archives-link" href="/categories/%E9%A3%8E%E6%99%AF/">风景<span class="mdui-ripple sidebar_archives-count">1</span></a>
         
       </div>
     </div>
@@ -146,6 +164,7 @@
   </div>
 </aside>
   <main id="main" class="mdui-m-t-5 fadeIn animated">
+
   
 <link rel="stylesheet" href="https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.css">
 
@@ -198,20 +217,29 @@
     style="width:100%"
     poster="/images/backpic/CCTV.png"
     data-setup='{}'>
-    <source src="http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8" type="application/x-mpegURL"></source>
-    <source src="http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8" type="application/vnd.apple.mpegurl"></source>
-
-  application/vnd.apple.mpegurl
+    <source src="http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8"  type="application/x-mpegURL"></source>
   <p class="vjs-no-js">
-    To view this video please enable JavaScript, and consider upgrading to a
-    web browser that
+    要观看此直播，请启用JavaScript，并升级浏览器以
     <a href="https://videojs.com/html5-video-support/" target="_blank">
-      supports HTML5 video
+      支持HTML5视频
     </a>
   </p>
 </video>
 
-<footer class="mdui-card-actions">
+<footer class="mdui-card-actions"> 
+<select class="mdui-select mdui-text-color-theme-text mdui-card-m-l-1"  mdui-select="{position: 'top'}"  id="tvselect"  onchange="changev()">
+  
+  
+    <option value="http://hls-ott-zhibo.wasu.tv/live/156/index.m3u8">新华源</option>
+  
+  
+    <option value="http://ivi.bupt.edu.cn/hls/cctv2hd.m3u8">多讯源</option>
+  
+  <option value="http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8">贝谷源</option>
+  
+  
+</select>
+
   
   
 </footer>
@@ -247,11 +275,16 @@
     </div>
 
 
-<img src="/images/tvlogo/CCTV1.png" style="width: 300px;">
+
 
 </main>
-  <footer id="footer" class="mdui-m-t-5 mdui-p-y-3 mdui-color-theme">
+<footer id="footer" class="mdui-m-t-5 mdui-p-y-3 mdui-color-theme">
   <div class="mdui-p-y-0 mdui-text-center">
+<a target="_blank" rel="noopener" href="https://tv.cctv.com/live/cctv1/"><img src="/images/tvlogo/CCTV1.png" style="height: 40px;"></a></div>
+
+  
+  <div class="mdui-p-y-0 mdui-text-center">
+ 
     
     
     

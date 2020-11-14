@@ -37,7 +37,25 @@
   
     <link rel="canonical" href="http://tv.bago.ink/archives/2000/">
   
-
+  <script type="text/javascript">
+    function changev(){
+    
+      var myvideo=videojs("my-player");
+      var myselect = document.getElementById("tvselect");
+    var index=myselect.selectedIndex; 
+    var value = myselect.options[index].value;
+    
+                this.myvideo.reset(); 
+                this.myvideo.src([
+                    {
+                        type: 'application/x-mpegURL',
+                        src: myselect.options[index].value
+                    },
+                ]);
+                this.myvideo.load();
+                this.myvideo.play();
+    }
+  </script>
   
   
 
@@ -101,7 +119,7 @@
       </div>
       <div class="mdui-collapse-item-body mdui-list mdui-list-dense">
         
-        <a class="mdui-ripple sidebar_archives-link" href="/categories/%E5%AE%89%E5%BE%BD/">安徽<span class="mdui-ripple sidebar_archives-count">1</span></a>
+        <a class="mdui-ripple sidebar_archives-link" href="/categories/%E9%A3%8E%E6%99%AF/">风景<span class="mdui-ripple sidebar_archives-count">1</span></a>
         
       </div>
     </div>
@@ -143,6 +161,7 @@
 </aside>
   <main id="main" class="mdui-m-t-5 fadeIn animated">
 
+
   <div class="mdui-chip mdui-m-b-3">
     <span class="mdui-chip-icon mdui-color-theme-accent"><i class="mdui-icon material-icons">place</i></span>
     <span class="mdui-chip-title">归档：2000/</span>
@@ -152,26 +171,7 @@
 
 
   <article class="mdui-card mdui-m-b-5 mdui-hoverable" style="border-radius:30px;">
-    <a href="/live/20/">
-    </a>
-    <div class="mdui-card-content mdui-typo">
-      
-        正在准备
-……
-      
-    </div>
-    <div class="mdui-text-center">
-      浙江卫视
-      <a href="/live/20/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
-    </div>
-    <footer class="mdui-card-actions">
-      
-      
-    </footer>
-  </article>
-
-  <article class="mdui-card mdui-m-b-5 mdui-hoverable" style="border-radius:30px;">
-    <a href="/live/3/">
+    <a href="/live/18/">
     </a>
     <div class="mdui-card-content mdui-typo">
       
@@ -179,8 +179,8 @@
       
     </div>
     <div class="mdui-text-center">
-      CCTV3
-      <a href="/live/3/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
+           CCTV17
+      <a href="/live/18/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
     </div>
     <footer class="mdui-card-actions">
       
@@ -189,7 +189,7 @@
   </article>
 
   <article class="mdui-card mdui-m-b-5 mdui-hoverable" style="border-radius:30px;">
-    <a href="/live/2/">
+    <a href="/live/17/">
     </a>
     <div class="mdui-card-content mdui-typo">
       
@@ -197,8 +197,8 @@
       
     </div>
     <div class="mdui-text-center">
-      CCTV2
-      <a href="/live/2/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
+           CCTV16
+      <a href="/live/17/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
     </div>
     <footer class="mdui-card-actions">
       
@@ -207,25 +207,7 @@
   </article>
 
   <article class="mdui-card mdui-m-b-5 mdui-hoverable" style="border-radius:30px;">
-    <a href="/live/1/">
-    </a>
-    <div class="mdui-card-content mdui-typo">
-      
-        中央电视台综合频道中央电视台综合频道（频道呼号：CCTV-1 简称：央视综合频道或央视一套）是以新闻为主的综合类电视频道，于1978年5月1...……
-      
-    </div>
-    <div class="mdui-text-center">
-      CCTV1
-      <a href="/live/1/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
-    </div>
-    <footer class="mdui-card-actions">
-      
-      
-    </footer>
-  </article>
-
-  <article class="mdui-card mdui-m-b-5 mdui-hoverable" style="border-radius:30px;">
-    <a href="/live/0/">
+    <a href="/live/16/">
     </a>
     <div class="mdui-card-content mdui-typo">
       
@@ -233,20 +215,151 @@
       
     </div>
     <div class="mdui-text-center">
-      直播中国
-      <a href="/live/0/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
+           CCTV15
+      <a href="/live/16/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
     </div>
     <footer class="mdui-card-actions">
       
       
-        <a class="mdui-ripple article_tags-link-none-link" href="/tags/%E9%A3%8E%E6%99%AF/" rel="tag">风景</a>
+    </footer>
+  </article>
+
+  <article class="mdui-card mdui-m-b-5 mdui-hoverable" style="border-radius:30px;">
+    <a href="/live/15/">
+    </a>
+    <div class="mdui-card-content mdui-typo">
+      
+        ……
+      
+    </div>
+    <div class="mdui-text-center">
+           CCTV14
+      <a href="/live/15/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
+    </div>
+    <footer class="mdui-card-actions">
+      
       
     </footer>
   </article>
+
+  <article class="mdui-card mdui-m-b-5 mdui-hoverable" style="border-radius:30px;">
+    <a href="/live/14/">
+    </a>
+    <div class="mdui-card-content mdui-typo">
+      
+        ……
+      
+    </div>
+    <div class="mdui-text-center">
+           CCTV13
+      <a href="/live/14/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
+    </div>
+    <footer class="mdui-card-actions">
+      
+      
+    </footer>
+  </article>
+
+  <article class="mdui-card mdui-m-b-5 mdui-hoverable" style="border-radius:30px;">
+    <a href="/live/13/">
+    </a>
+    <div class="mdui-card-content mdui-typo">
+      
+        ……
+      
+    </div>
+    <div class="mdui-text-center">
+           CCTV12
+      <a href="/live/13/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
+    </div>
+    <footer class="mdui-card-actions">
+      
+      
+    </footer>
+  </article>
+
+  <article class="mdui-card mdui-m-b-5 mdui-hoverable" style="border-radius:30px;">
+    <a href="/live/12/">
+    </a>
+    <div class="mdui-card-content mdui-typo">
+      
+        ……
+      
+    </div>
+    <div class="mdui-text-center">
+           CCTV11
+      <a href="/live/12/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
+    </div>
+    <footer class="mdui-card-actions">
+      
+      
+    </footer>
+  </article>
+
+  <article class="mdui-card mdui-m-b-5 mdui-hoverable" style="border-radius:30px;">
+    <a href="/live/11/">
+    </a>
+    <div class="mdui-card-content mdui-typo">
+      
+        ……
+      
+    </div>
+    <div class="mdui-text-center">
+           CCTV10
+      <a href="/live/11/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
+    </div>
+    <footer class="mdui-card-actions">
+      
+      
+    </footer>
+  </article>
+
+  <article class="mdui-card mdui-m-b-5 mdui-hoverable" style="border-radius:30px;">
+    <a href="/live/10/">
+    </a>
+    <div class="mdui-card-content mdui-typo">
+      
+        ……
+      
+    </div>
+    <div class="mdui-text-center">
+           CCTV9
+      <a href="/live/10/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
+    </div>
+    <footer class="mdui-card-actions">
+      
+      
+    </footer>
+  </article>
+
+  <article class="mdui-card mdui-m-b-5 mdui-hoverable" style="border-radius:30px;">
+    <a href="/live/9/">
+    </a>
+    <div class="mdui-card-content mdui-typo">
+      
+        ……
+      
+    </div>
+    <div class="mdui-text-center">
+           CCTV8
+      <a href="/live/9/" class="mdui-btn mdui-btn-raised mdui-color-theme-accent mdui-ripple">查看本台</a>
+    </div>
+    <footer class="mdui-card-actions">
+      
+      
+    </footer>
+  </article>
+
+
+  <nav id="paginator">
+    <span class="page-number current">1</span><a class="page-number" href="/archives/2000/page/2/">2</a><a class="extend next" rel="next" href="/archives/2000/page/2/"><button aria-label="next" class="mdui-btn mdui-btn-raised mdui-btn-icon mdui-color-theme-accent mdui-ripple"><i class="mdui-icon material-icons">arrow_forward</i></button></a>
+  </nav>
 
 </main>
-  <footer id="footer" class="mdui-m-t-5 mdui-p-y-3 mdui-color-theme">
+<footer id="footer" class="mdui-m-t-5 mdui-p-y-3 mdui-color-theme">
+  
   <div class="mdui-p-y-0 mdui-text-center">
+ 
     
     
     
