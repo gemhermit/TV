@@ -4,9 +4,87 @@
   
     
     <entry>
-      <title>浙江少儿</title>
-      <link href="https://tv.bago.ink/live/98/"/>
-      <url>https://tv.bago.ink/live/98/</url>
+      <title>CGTN</title>
+      <link href="https://tv.bago.ink/live/1001/"/>
+      <url>https://tv.bago.ink/live/1001/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CGTN西语</title>
+      <link href="https://tv.bago.ink/live/1002/"/>
+      <url>https://tv.bago.ink/live/1002/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CGTN法语</title>
+      <link href="https://tv.bago.ink/live/1004/"/>
+      <url>https://tv.bago.ink/live/1004/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CGTN俄语</title>
+      <link href="https://tv.bago.ink/live/1003/"/>
+      <url>https://tv.bago.ink/live/1003/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CGTN记录</title>
+      <link href="https://tv.bago.ink/live/1006/"/>
+      <url>https://tv.bago.ink/live/1006/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CGTN阿语</title>
+      <link href="https://tv.bago.ink/live/1005/"/>
+      <url>https://tv.bago.ink/live/1005/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>浙江教育科技</title>
+      <link href="https://tv.bago.ink/live/103/"/>
+      <url>https://tv.bago.ink/live/103/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -23,48 +101,9 @@
     
     
     <entry>
-      <title>动物星球</title>
-      <link href="https://tv.bago.ink/live/1002/"/>
-      <url>https://tv.bago.ink/live/1002/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>国家地理-台湾</title>
-      <link href="https://tv.bago.ink/live/1001/"/>
-      <url>https://tv.bago.ink/live/1001/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>台视</title>
-      <link href="https://tv.bago.ink/live/taisi/"/>
-      <url>https://tv.bago.ink/live/taisi/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>探索频道</title>
-      <link href="https://tv.bago.ink/live/1000/"/>
-      <url>https://tv.bago.ink/live/1000/</url>
+      <title>浙江数码时代</title>
+      <link href="https://tv.bago.ink/live/109/"/>
+      <url>https://tv.bago.ink/live/109/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -82,6 +121,25 @@
     
     <entry>
       <title>好易购</title>
+      <link href="https://tv.bago.ink/live/108/"/>
+      <url>https://tv.bago.ink/live/108/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 地方台 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>浙江国际</title>
       <link href="https://tv.bago.ink/live/107/"/>
       <url>https://tv.bago.ink/live/107/</url>
       
@@ -100,9 +158,9 @@
     
     
     <entry>
-      <title>浙江国际</title>
-      <link href="https://tv.bago.ink/live/99/"/>
-      <url>https://tv.bago.ink/live/99/</url>
+      <title>浙江少儿</title>
+      <link href="https://tv.bago.ink/live/106/"/>
+      <url>https://tv.bago.ink/live/106/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -112,19 +170,6 @@
           <category> 地方台 </category>
           
       </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>浙江影视娱乐</title>
-      <link href="https://tv.bago.ink/live/1000/"/>
-      <url>https://tv.bago.ink/live/1000/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
       
       
     </entry>
@@ -133,25 +178,6 @@
     
     <entry>
       <title>浙江民生休闲</title>
-      <link href="https://tv.bago.ink/live/1110/"/>
-      <url>https://tv.bago.ink/live/1110/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 地方台 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>浙江留学世界</title>
       <link href="https://tv.bago.ink/live/105/"/>
       <url>https://tv.bago.ink/live/105/</url>
       
@@ -170,7 +196,7 @@
     
     
     <entry>
-      <title>浙江数码时代</title>
+      <title>浙江公共新闻</title>
       <link href="https://tv.bago.ink/live/104/"/>
       <url>https://tv.bago.ink/live/104/</url>
       
@@ -190,8 +216,8 @@
     
     <entry>
       <title>浙江经济生活</title>
-      <link href="https://tv.bago.ink/live/151/"/>
-      <url>https://tv.bago.ink/live/151/</url>
+      <link href="https://tv.bago.ink/live/102/"/>
+      <url>https://tv.bago.ink/live/102/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -209,40 +235,8 @@
     
     <entry>
       <title>钱江都市</title>
-      <link href="https://tv.bago.ink/live/150/"/>
-      <url>https://tv.bago.ink/live/150/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 地方台 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>htv综合</title>
-      <link href="https://tv.bago.ink/live/100/"/>
-      <url>https://tv.bago.ink/live/100/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>浙江教育科技</title>
-      <link href="https://tv.bago.ink/live/10002/"/>
-      <url>https://tv.bago.ink/live/10002/</url>
+      <link href="https://tv.bago.ink/live/101/"/>
+      <url>https://tv.bago.ink/live/101/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -880,7 +874,7 @@
     
     
     <entry>
-      <title>CCTV-兵器科技</title>
+      <title>CCTV兵器科技</title>
       <link href="https://tv.bago.ink/live/30/"/>
       <url>https://tv.bago.ink/live/30/</url>
       
@@ -899,7 +893,7 @@
     
     
     <entry>
-      <title>CCTV-世界地理</title>
+      <title>CCTV世界地理</title>
       <link href="https://tv.bago.ink/live/25/"/>
       <url>https://tv.bago.ink/live/25/</url>
       
@@ -1305,97 +1299,6 @@
     
     
     <entry>
-      <title>国家地理-香港</title>
-      <link href="https://tv.bago.ink/live/null/"/>
-      <url>https://tv.bago.ink/live/null/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>CGTN</title>
-      <link href="https://tv.bago.ink/live/cgtn/"/>
-      <url>https://tv.bago.ink/live/cgtn/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>CGTN西语</title>
-      <link href="https://tv.bago.ink/live/CGTN2/"/>
-      <url>https://tv.bago.ink/live/CGTN2/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>CGTN法语</title>
-      <link href="https://tv.bago.ink/live/CGTN1/"/>
-      <url>https://tv.bago.ink/live/CGTN1/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>CGTN俄语</title>
-      <link href="https://tv.bago.ink/live/CGTN5/"/>
-      <url>https://tv.bago.ink/live/CGTN5/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>CGTN记录</title>
-      <link href="https://tv.bago.ink/live/CGTN6/"/>
-      <url>https://tv.bago.ink/live/CGTN6/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>CGTN阿语</title>
-      <link href="https://tv.bago.ink/live/CGTN4/"/>
-      <url>https://tv.bago.ink/live/CGTN4/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>中国教育1</title>
       <link href="https://tv.bago.ink/live/zgjy1/"/>
       <url>https://tv.bago.ink/live/zgjy1/</url>
@@ -1422,16 +1325,92 @@
     
     
     <entry>
-      <title>浙江公共新闻</title>
-      <link href="https://tv.bago.ink/live/1111/"/>
-      <url>https://tv.bago.ink/live/1111/</url>
+      <title>南迦巴瓦星空</title>
+      <link href="https://tv.bago.ink/live/7165/"/>
+      <url>https://tv.bago.ink/live/7165/</url>
       
         <content type="html"><![CDATA[]]></content>
       
       
       <categories>
           
-          <category> 地方台 </category>
+          <category> 风景 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>贺兰山星空</title>
+      <link href="https://tv.bago.ink/live/7164/"/>
+      <url>https://tv.bago.ink/live/7164/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 风景 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>蓬莱海洋极地世界</title>
+      <link href="https://tv.bago.ink/live/7163/"/>
+      <url>https://tv.bago.ink/live/7163/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 风景 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>月牙泉</title>
+      <link href="https://tv.bago.ink/live/7162/"/>
+      <url>https://tv.bago.ink/live/7162/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 风景 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>百家岩</title>
+      <link href="https://tv.bago.ink/live/7161/"/>
+      <url>https://tv.bago.ink/live/7161/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 风景 </category>
           
       </categories>
       
@@ -2068,7 +2047,7 @@
     
     
     <entry>
-      <title>瞻鲁台</title>
+      <title>泰山星空</title>
       <link href="https://tv.bago.ink/live/7127/"/>
       <url>https://tv.bago.ink/live/7127/</url>
       
@@ -2183,25 +2162,6 @@
     
     <entry>
       <title>五彩池</title>
-      <link href="https://tv.bago.ink/live/7121/"/>
-      <url>https://tv.bago.ink/live/7121/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 风景 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>月牙泉</title>
       <link href="https://tv.bago.ink/live/7121/"/>
       <url>https://tv.bago.ink/live/7121/</url>
       
@@ -2980,7 +2940,7 @@
     
     
     <entry>
-      <title>国家游泳中心（水立方）</title>
+      <title>水立方</title>
       <link href="https://tv.bago.ink/live/7080/"/>
       <url>https://tv.bago.ink/live/7080/</url>
       
@@ -3854,6 +3814,25 @@
     
     
     <entry>
+      <title>黄花城水长城</title>
+      <link href="https://tv.bago.ink/live/7034/"/>
+      <url>https://tv.bago.ink/live/7034/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 风景 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>少林寺广场</title>
       <link href="https://tv.bago.ink/live/7033/"/>
       <url>https://tv.bago.ink/live/7033/</url>
@@ -4044,25 +4023,6 @@
     
     
     <entry>
-      <title>百家岩</title>
-      <link href="https://tv.bago.ink/live/7024/"/>
-      <url>https://tv.bago.ink/live/7024/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 风景 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>小寨沟</title>
       <link href="https://tv.bago.ink/live/7023/"/>
       <url>https://tv.bago.ink/live/7023/</url>
@@ -4180,25 +4140,6 @@
       <title>黄岘岭</title>
       <link href="https://tv.bago.ink/live/7017/"/>
       <url>https://tv.bago.ink/live/7017/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 风景 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>宏村南湖</title>
-      <link href="https://tv.bago.ink/live/7002/"/>
-      <url>https://tv.bago.ink/live/7002/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -4481,9 +4422,9 @@
     
     
     <entry>
-      <title>宏村月沼</title>
-      <link href="https://tv.bago.ink/live/7001/"/>
-      <url>https://tv.bago.ink/live/7001/</url>
+      <title>宏村南湖</title>
+      <link href="https://tv.bago.ink/live/7002/"/>
+      <url>https://tv.bago.ink/live/7002/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -4500,9 +4441,9 @@
     
     
     <entry>
-      <title>黄花城水长城</title>
-      <link href="https://tv.bago.ink/live/7034/"/>
-      <url>https://tv.bago.ink/live/7034/</url>
+      <title>宏村月沼</title>
+      <link href="https://tv.bago.ink/live/7001/"/>
+      <url>https://tv.bago.ink/live/7001/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -4532,20 +4473,7 @@
     
     
     <entry>
-      <title>国家地理野生</title>
-      <link href="https://tv.bago.ink/live/null/"/>
-      <url>https://tv.bago.ink/live/null/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>CCTV-卫生健康</title>
+      <title>CCTV卫生健康</title>
       <link href="https://tv.bago.ink/live/35/"/>
       <url>https://tv.bago.ink/live/35/</url>
       
@@ -4558,7 +4486,7 @@
     
     
     <entry>
-      <title>CCTV-戏曲</title>
+      <title>CCTV戏曲</title>
       <link href="https://tv.bago.ink/live/34/"/>
       <url>https://tv.bago.ink/live/34/</url>
       
@@ -4571,7 +4499,7 @@
     
     
     <entry>
-      <title>CCTV-娱乐</title>
+      <title>CCTV娱乐</title>
       <link href="https://tv.bago.ink/live/33/"/>
       <url>https://tv.bago.ink/live/33/</url>
       
@@ -4584,7 +4512,7 @@
     
     
     <entry>
-      <title>CCTV-央视文化精品</title>
+      <title>CCTV央视文化精品</title>
       <link href="https://tv.bago.ink/live/32/"/>
       <url>https://tv.bago.ink/live/32/</url>
       
@@ -4597,7 +4525,7 @@
     
     
     <entry>
-      <title>CCTV-女性时尚</title>
+      <title>CCTV女性时尚</title>
       <link href="https://tv.bago.ink/live/31/"/>
       <url>https://tv.bago.ink/live/31/</url>
       
@@ -4610,7 +4538,7 @@
     
     
     <entry>
-      <title>CCTV-央视台球</title>
+      <title>CCTV央视台球</title>
       <link href="https://tv.bago.ink/live/29/"/>
       <url>https://tv.bago.ink/live/29/</url>
       
@@ -4623,7 +4551,7 @@
     
     
     <entry>
-      <title>CCTV-高尔夫网球</title>
+      <title>CCTV高尔夫网球</title>
       <link href="https://tv.bago.ink/live/28/"/>
       <url>https://tv.bago.ink/live/28/</url>
       
@@ -4636,7 +4564,7 @@
     
     
     <entry>
-      <title>CCTV-风云足球</title>
+      <title>CCTV风云足球</title>
       <link href="https://tv.bago.ink/live/27/"/>
       <url>https://tv.bago.ink/live/27/</url>
       
@@ -4649,7 +4577,7 @@
     
     
     <entry>
-      <title>CCTV-风云音乐</title>
+      <title>CCTV风云音乐</title>
       <link href="https://tv.bago.ink/live/26/"/>
       <url>https://tv.bago.ink/live/26/</url>
       
@@ -4662,7 +4590,7 @@
     
     
     <entry>
-      <title>CCTV-怀旧剧场</title>
+      <title>CCTV怀旧剧场</title>
       <link href="https://tv.bago.ink/live/24/"/>
       <url>https://tv.bago.ink/live/24/</url>
       
@@ -4675,7 +4603,7 @@
     
     
     <entry>
-      <title>CCTV-风云剧场</title>
+      <title>CCTV风云剧场</title>
       <link href="https://tv.bago.ink/live/23/"/>
       <url>https://tv.bago.ink/live/23/</url>
       
@@ -4688,7 +4616,7 @@
     
     
     <entry>
-      <title>CCTV-第一剧场</title>
+      <title>CCTV第一剧场</title>
       <link href="https://tv.bago.ink/live/22/"/>
       <url>https://tv.bago.ink/live/22/</url>
       
@@ -4701,7 +4629,7 @@
     
     
     <entry>
-      <title>CCTV-电视指南</title>
+      <title>CCTV电视指南</title>
       <link href="https://tv.bago.ink/live/21/"/>
       <url>https://tv.bago.ink/live/21/</url>
       
@@ -4726,6 +4654,97 @@
           <category> 中央台 </category>
           
       </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>国家地理野生</title>
+      <link href="https://tv.bago.ink/live/null/"/>
+      <url>https://tv.bago.ink/live/null/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>动物星球</title>
+      <link href="https://tv.bago.ink/live/1002/"/>
+      <url>https://tv.bago.ink/live/1002/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>台视</title>
+      <link href="https://tv.bago.ink/live/taisi/"/>
+      <url>https://tv.bago.ink/live/taisi/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>国家地理-台湾</title>
+      <link href="https://tv.bago.ink/live/1001/"/>
+      <url>https://tv.bago.ink/live/1001/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>国家地理-香港</title>
+      <link href="https://tv.bago.ink/live/null/"/>
+      <url>https://tv.bago.ink/live/null/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>探索频道</title>
+      <link href="https://tv.bago.ink/live/1000/"/>
+      <url>https://tv.bago.ink/live/1000/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>htv综合</title>
+      <link href="https://tv.bago.ink/live/100/"/>
+      <url>https://tv.bago.ink/live/100/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
       
       
     </entry>
