@@ -11,6 +11,12 @@
         <content type="html"><![CDATA[]]></content>
       
       
+      <categories>
+          
+          <category> 国际台 </category>
+          
+      </categories>
+      
       
     </entry>
     
@@ -23,6 +29,12 @@
       
         <content type="html"><![CDATA[]]></content>
       
+      
+      <categories>
+          
+          <category> 国际台 </category>
+          
+      </categories>
       
       
     </entry>
@@ -37,6 +49,12 @@
         <content type="html"><![CDATA[]]></content>
       
       
+      <categories>
+          
+          <category> 国际台 </category>
+          
+      </categories>
+      
       
     </entry>
     
@@ -49,6 +67,12 @@
       
         <content type="html"><![CDATA[]]></content>
       
+      
+      <categories>
+          
+          <category> 国际台 </category>
+          
+      </categories>
       
       
     </entry>
@@ -63,6 +87,12 @@
         <content type="html"><![CDATA[]]></content>
       
       
+      <categories>
+          
+          <category> 国际台 </category>
+          
+      </categories>
+      
       
     </entry>
     
@@ -75,6 +105,57 @@
       
         <content type="html"><![CDATA[]]></content>
       
+      
+      <categories>
+          
+          <category> 国际台 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>FASHIONTV</title>
+      <link href="https://tv.bago.ink/live/FTV/"/>
+      <url>https://tv.bago.ink/live/FTV/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>全美电视</title>
+      <link href="https://tv.bago.ink/live/QMTV/"/>
+      <url>https://tv.bago.ink/live/QMTV/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>NHKWorld</title>
+      <link href="https://tv.bago.ink/live/1008/"/>
+      <url>https://tv.bago.ink/live/1008/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 国际台 </category>
+          
+      </categories>
       
       
     </entry>
@@ -1315,6 +1396,32 @@
       <title>中国教育2</title>
       <link href="https://tv.bago.ink/live/null/"/>
       <url>https://tv.bago.ink/live/null/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Relaxing Guitar Music</title>
+      <link href="https://tv.bago.ink/live/RGMTV/"/>
+      <url>https://tv.bago.ink/live/RGMTV/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>英国MTV</title>
+      <link href="https://tv.bago.ink/live/mtv/"/>
+      <url>https://tv.bago.ink/live/mtv/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -4675,8 +4782,8 @@
     
     <entry>
       <title>动物星球</title>
-      <link href="https://tv.bago.ink/live/1002/"/>
-      <url>https://tv.bago.ink/live/1002/</url>
+      <link href="https://tv.bago.ink/live/l1002/"/>
+      <url>https://tv.bago.ink/live/l1002/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -4701,8 +4808,8 @@
     
     <entry>
       <title>国家地理-台湾</title>
-      <link href="https://tv.bago.ink/live/1001/"/>
-      <url>https://tv.bago.ink/live/1001/</url>
+      <link href="https://tv.bago.ink/live/10001/"/>
+      <url>https://tv.bago.ink/live/10001/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -4740,8 +4847,21 @@
     
     <entry>
       <title>htv综合</title>
-      <link href="https://tv.bago.ink/live/100/"/>
-      <url>https://tv.bago.ink/live/100/</url>
+      <link href="https://tv.bago.ink/live/11111/"/>
+      <url>https://tv.bago.ink/live/11111/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>香港卫视</title>
+      <link href="https://tv.bago.ink/live/70/"/>
+      <url>https://tv.bago.ink/live/70/</url>
       
         <content type="html"><![CDATA[]]></content>
       
