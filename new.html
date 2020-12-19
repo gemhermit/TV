@@ -1,0 +1,688 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CETV4</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="baidu-site-verification" content="bbkTsS37Wd" />
+    <link href="http://res.cetv.cn/t/site/10001/d19dcef4610d4b40d3bebc30397b93e3/assets//css/main_tf2016.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="http://res.cetv.cn/t/site/10001/d19dcef4610d4b40d3bebc30397b93e3/assets//css/site.css"/>
+<link rel="stylesheet" href="http://res.cetv.cn/assets/lib/dialog/style.css"/>
+    <script type="text/javascript" src="http://res.cetv.cn/assets/js/jquery.js"></script>
+</head>
+<body id="page_cetv4">
+<div id="wrapper">
+    <!-- 头部 -->
+    <div id="header" >
+	<div class="top-bar">
+		<h1 id="logo" style="display:block;"><a href="/" title="CETV" class="ie6_png32">
+                        <!--<img src="http://img.cetv.cn/a/10001/201702/43791d360be5846f2ccd97386229640f.png?20171115000043" />-->
+                    </a></h1>
+		<div>
+		<ul id="member-login" class="login" style="display: block;">
+            <li>
+    <a href="javascript:;" class="login-btn">登录</a>
+
+    <!-- 登录框 -->
+    <div class="login-box" id="login-box">
+        <h3 class="title">
+            <span class="icon">
+                <img src="http://res.cetv.cn/a/10001/201807/eddc6fbca4404daf0d68f3d3e16d676d.png" alt="">
+            </span>
+            登录CETV账号
+            <button class="close" id="close-login-dialog">×</button>
+        </h3>
+    
+        <!-- 主体内容 -->
+        <div class="hole-box">
+            <!-- 加载框 -->
+            <div class="login-loading" id="login-loading">
+                <img src="http://res.cetv.cn/t/site/10001/d19dcef4610d4b40d3bebc30397b93e3/assets//css/images/loading.gif" class="login-loading-image">
+            </div>
+    
+            <!-- 登录框 -->
+            <div class="login-box-ipt-area" id="login-box-ipt" style="display: none;">
+                <div class="form-area">
+                    <div class="h20"></div>
+                    <div class="form-row ipt-area">
+                        <label for="account" class="read-only">邮箱/手机号</label>
+                        <span class="icon icon-account"></span>
+                        <input type="text" class="ipt-txt account" id="account" autocomplete="off" placeholder="邮箱/手机号" />
+                    </div>
+                    <div class="h20"></div>
+                    <div class="form-row ipt-area">
+                        <label for="password" class="read-only">密码</label>
+                        <span class="icon icon-password"></span>
+                        <input type="password" class="ipt-txt password" id="password" autocomplete="off" placeholder="密码"/>
+                    </div>
+                    <div class="h20"></div>
+                    <div class="form-row ipt-area" id="captcha-box">
+                        <label for="password" class="read-only">验证码</label>
+                        <span class="icon icon-password"></span>
+                        <input type="text" class="ipt-txt captcha" id="captcha" autocomplete="off" placeholder="验证码"/>
+                        <span class="captcha-result" id="captcha-result"></span>
+                        <img src="/index/login/captcha" class="captcha-image" id="captcha-image" alt="">
+                    </div>
+                    <div class="h20" id="captcha-box-hr"></div>
+                    <div class="chk-area">
+                        <label class="remember-area elem-text">
+                            <input type="checkbox" id="remember" class="ipt-chk" />
+                            下次自动登录
+                        </label>
+                        <a href="/index/login/password" class="elem-text">忘记密码？</a>
+                    </div>
+                    <div class="h20"></div>
+                    <div class="btn-area">
+                        <p class="login-submit submit" id="submit">登录</p>
+                        <p class="login-submit loading" id="loading"><i class="fa fa-spinner fa-spin"></i></p>
+                    </div>
+                    <div class="h20"></div>
+                    <div class="txt-area">
+                        <p class="elem-text regist">还没账号？<a href="/index/login/regist">立即注册</a></p>
+                    </div>
+                </div>
+                <!--无外网则隐藏-云设置可设置-->
+                <div class="social-login">
+                    <span class="text-title">其它登录方式</span>
+                    <div class="social-btns">
+                        <a href="/index/login/qq" class="icon icon-qq">QQ登录</a>
+                        <a href="/index/login/sina" class="icon icon-sina">新浪登录</a>
+                        <a href="/index/login/wechat" class="icon icon-wechat">微信登录</a>
+                    </div>
+                </div>
+                            </div>
+    
+            <!-- 快速登录 -->
+            <div class="login-box-quick-area" id="login-quick-box" style="display: none;">
+                <div class="avatar">
+                    <img src="http://res.cetv.cn/t/site/10001/d19dcef4610d4b40d3bebc30397b93e3/assets//images/default.png" id="quick-image" alt="">
+                </div>
+                <p class="user-account" id="quick-nickname"></p>
+                <p class="desc">点击头像快速登录</p>
+                <div class="switch-btn">
+                    <a href="javascript:;" id="switch-account">切换账号</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://res.cetv.cn/t/site/10001/d19dcef4610d4b40d3bebc30397b93e3/assets//js/ie-placeholder.min.js"></script>
+    <script type="text/javascript" src="http://res.cetv.cn/assets/lib/dialog/dialog.js"></script>
+    <script type="text/javascript" src="http://res.cetv.cn/assets/lib/dialog/dialog-modal.js"></script>
+    <script type="text/javascript" src="http://app.cetv.cn/assets/member/oauth.js"></script>
+    <script>
+       //var isLogined = false,
+       var isLogined,
+        oauthConfig = {
+            'mode' : 'public',
+            'appUrl' : 'http://app.cetv.cn', // APP站点的URL
+            'noticeUrl' : 'http://www.centv.cn/index/login/notice', // 登录成功后，通知本站点登录的URL
+            'siteid' : '10001'
+        },
+         key = "0e8635f7ba94c12d",  // 密码加密的公钥
+         iv = "0e8635f7ba94c12d"; // 密码加密的公钥偏移量
+    </script>
+    <script src="http://res.cetv.cn/assets/js/aes.js"></script>
+    <script type="text/javascript" src="http://res.cetv.cn/t/site/10001/d19dcef4610d4b40d3bebc30397b93e3/assets//js/member.js"></script>
+
+</li>
+<li><a href="/index/login/regist">注册</a></li>
+<li><a href="https://a.app.qq.com/o/simple.jsp?pkgname=cn.cetv.zgjy&fromcase=40003" target="_blank"><i class="icon-iphone"></i>下载</a></li>        </ul>
+        <div id="member-user" class="user" style="display: none;">
+            <div class="thumb-area">
+        <img src="http://res.cetv.cn/t/site/10001/d19dcef4610d4b40d3bebc30397b93e3/assets//images/default.png" alt="" class="user-thumb"/>
+        <i class="down-tag"></i>
+</div>
+<div class="toggle-menu logined">
+    <span class="rotate-tag"></span>
+    <ul class="user-options">
+        <li>
+            <a href="/index/member/index">
+                <i class="user-icon icon-user"></i>
+                <span>个人中心</span>
+            </a>
+        </li>
+        		<li>
+			<!-- 判断地址 -->
+            <a target="_blank" title="公众号" href="/media/login">
+                <i class="user-icon icon-ctmedia"></i>
+                <span>公众号公众号</span>
+            </a>
+        </li>
+                <li>
+            <a href="/index/login/edit" target="_blank">
+                <i class="user-icon icon-setting"></i>
+                <span>云账号设置</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" id="logout-btn">
+                <i class="user-icon icon-logout"></i>
+                <span>退出登录</span>
+            </a>
+        </li>
+    </ul>
+</div>
+        </div>
+       
+        </div>
+         <div class="search-box" data-id="" style="display:block;">
+            <form action="/s" name="search" method="get">
+                                <!--<input type="hidden" name="alias" id="alias" value="' . $alias . '"/>-->
+                                <input type="text" name="wd" id="wd" value="" autocomplete="on" placeholder="请输入关键字" class="search-inp"/>
+                <input type="submit" id="search-btn" class="search-btn" value=""  />
+            </form>
+        </div>
+	</div>
+	<div class="nav-bar" data-id="60">
+		<div class="nav">
+		    <ul>
+            <li>
+            <a class="pv-nav-stat" data-cid="1" data-type="template" href="http://www.centv.cn"  class="page_">首页</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="34" data-type="list" href="http://www.centv.cn/xinwen/index.html"  class="page_xinwen">新闻</a>
+        
+                        <div class="nav-bar-child">
+    			<div class="nav">
+    				<ul>
+                                        <li><a class="pv-nav-stat" data-cid="120" data-type="list" href="http://www.centv.cn/shendu120/index.html" >深度</a></li>
+                                        <li><a class="pv-nav-stat" data-cid="40" data-type="template" href="http://www.centv.cn/pinglun/index.html" >评论</a></li>
+                                        <li><a class="pv-nav-stat" data-cid="114" data-type="list" href="http://www.centv.cn/yaowen114/index.html" >要闻</a></li>
+                                        <li><a class="pv-nav-stat" data-cid="123" data-type="list" href="http://www.centv.cn/difang123/index.html" >地方</a></li>
+                                        <li><a class="pv-nav-stat" data-cid="46" data-type="list" href="http://www.centv.cn/zgjybd/index.html" >全国教育新闻联播</a></li>
+                                        <li><a class="pv-nav-stat" data-cid="48" data-type="list" href="http://www.centv.cn/esj/index.html" >e视界</a></li>
+                                        <li><a class="pv-nav-stat" data-cid="50" data-type="list" href="http://www.centv.cn/caj/index.html" >长安街</a></li>
+                                        <li><a class="pv-nav-stat" data-cid="52" data-type="list" href="http://www.centv.cn/12jyxwzbj/index.html" >12点教育新闻直播间</a></li>
+                                        <li><a class="pv-nav-stat" data-cid="628" data-type="list" href="http://www.centv.cn/15djyxwzbj/index.html" >15点教育新闻直播间</a></li>
+                                        <li><a class="pv-nav-stat" data-cid="629" data-type="list" href="http://www.centv.cn/17djyxwzbj/index.html" >17点教育新闻直播间</a></li>
+                        				</ul>
+    			</div>
+    		</div>
+    				</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="54" data-type="list" href="http://www.centv.cn/cetv1/index.html"  class="page_cetv1">CETV1</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="84" data-type="template" href="http://www.centv.cn/cetv2/index.html"  class="page_cetv2">CETV2</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="58" data-type="list" href="http://www.centv.cn/cetv3/index.html"  class="page_cetv3">CETV3</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="60" data-type="list" href="http://www.centv.cn/cetv4/index.html"  class="page_cetv4">CETV4</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="62" data-type="list" href="http://www.centv.cn/zqjy/index.html"  class="page_zqjy">早教</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="675" data-type="link" href="http://www.centv.cn/zgjybd/index.html" target="_blank" class="page_qgjyxwlb">全国教育新闻联播</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="680" data-type="link" href="http://www.centv.cn/z/344673/" target="_blank" class="page_zbzr@n">教育新闻直播间</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="690" data-type="link" href="http://www.centv.cn/esj" target="_blank" class="page_zgm">e视界</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="676" data-type="link" href="http://www.centv.cn/caj/index.html" target="_blank" class="page_caj676">长安街</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="677" data-type="link" href="http://www.centv.cn/z/354840/" target="_blank" class="page_tpgj">脱贫攻坚</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="678" data-type="link" href="http://www.centv.cn/z/346802/" target="_blank" class="page_tsytk">同上一堂课</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="683" data-type="link" href="http://tbkt.centv.cn/" target="_blank" class="page_tbkc">同步课程</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="681" data-type="link" href="https://zhiyuan.cetv.cn/" target="_blank" class="page_xmtzy681">小明填志愿</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="682" data-type="link" href="http://www.centv.cn/2020ztgk" target="_blank" class="page_gkgz">高考高招</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="820" data-type="link" href="http://shuhua.centv.cn/" target="_blank" class="page_shuhua820">书画</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="684" data-type="link" href="http://qs.centv.cn/" target="_blank" class="page_qssz">青少素质</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="563" data-type="link" href="http://www.centv.cn/z/344663/" target="_blank" class="page_xmtzy">动感少年</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="70" data-type="link" href="http://guoxue.centv.cn/" target="_blank" class="page_guoxue">国学</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="685" data-type="link" href="http://www.cetv-edu.com/index.html" target="_blank" class="page_steamjy">STEAM</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="78" data-type="link" href="http://www.centv.cn/z/331711" target="_blank" class="page_vrvr">爱乐恩</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="68" data-type="link" href="http://jk.centv.cn/" target="_blank" class="page_jiankang">健康</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="686" data-type="link" href="http://vr.centv.cn/" target="_blank" class="page_vrpd">VR频道</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="687" data-type="link" href="http://www.centv.cn/z/323359/" target="_blank" class="page_qcgh">青春歌会</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="94" data-type="link" href="http://www.centv.cn/campus" target="_blank" class="page_huodong">最美校歌</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="792" data-type="link" href="http://www.centv.cn/z/371380/" target="_blank" class="page_qcxly">青春训练营</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="679" data-type="link" href="http://www.centv.cn/z/352541/" target="_blank" class="page_yzwn">一职为你</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="135" data-type="list" href="http://www.centv.cn/zazhi/index.html"  class="page_zazhi">教育传媒研究</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="74" data-type="link" href="http://www.centv.cn/z/316976/" target="_blank" class="page_xiehui">中国教育电视协会</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="72" data-type="link" href="http://www.centv.cn/z/323739/" target="_blank" class="page_zhijiao">主持人</a>
+        
+            		</li>
+            <li>
+            <a class="pv-nav-stat" data-cid="565" data-type="link" href="http://www.centv.cn/2019zzjg" target="_blank" class="page_gycetv">关于CETV</a>
+        
+            		</li>
+    </ul>
+
+		</div>
+	</div>
+    <input type="hidden" name="alias" value = "cetv4" id="alias"/>
+</div>
+    <div id="main">
+
+        <!—# CETV顶部海报 #—>
+                <div class="ad-box"><a href="http://www.centv.cn/cetv4" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/b4a6bc70fa769248df45b0b0a585221b.jpg" width="1100" height="160"><!--span class="text">广告</span--></a></div>
+        
+        <!--视频播放开始1-->
+        <div class="col video">
+            <div class="play-box player">
+                                                                    <iframe class="play_iframe" src="http://app.cetv.cn/video/videojs/index?site_id=10001&id=561&thumb=&type=stream&version=1&page=player" allowfullscreen frameborder="0" width="100%" height="100%"></iframe>
+            </div>
+            <div class="play-list" style="position: relative;">
+                <ul class="play-list-tab change_tab">
+                    <li class=""><a href="javascript:;">推荐视频</a></li>
+                    <li class="on click_play" data-vsrc="http://app.cetv.cn/video/videojs/index?site_id=10001&id=561&thumb=&type=stream&version=1&page=player"><a href="javascript:;">节目单</a></li>
+                    
+                    <!--<li class=""><a href="javascript:;">推荐视频</a></li>-->
+                    <!--<li class="on click_play" data-vsrc="http://app.cetv.cn/video/videojs/index?site_id=10001&id=561&thumb=&type=stream&version=1&page=player"><a href="javascript:;">节目单</a></li>-->
+                    <!--<li class="on"><a href="javascript:;">推荐视频</a></li>-->
+                    <!--<li class="click_play" data-vsrc="http://app.cetv.cn/video/videojs/index?site_id=10001&id=561&thumb=&type=stream&version=1&page=player"><a href="javascript:;">节目单</a></li>-->
+                </ul>
+                <!--<div id="fix-date" class="fix-date" style="position: absolute; top: 47px; background: #212121; color: #808080; width: 95%; left: 0; height: 40px; line-height: 40px; padding-left: 5%;"></div>-->
+                <div class="play-list1 change_list">
+                    <!--<ul class="play-list2-ul ul" style="display:none;">-->
+                    <ul class="play-list2-ul ul" style="display:none;" >
+                                                                        <li data-vsrc="" data-vid="" data-thumb="http://res.cetv.cn/assets/images/nopic.jpg" class="click_play"><!--i class="time">2019-03-15 15:58:33</i-->合欢树.mp3</li>
+                                                                        <li data-vsrc="http://video.cetv.cn/2019/0116/f6c38f84f12f15e58db96d252a323449sd/index.mp4" data-vid="39766" data-thumb="" class="click_play"><!--i class="time">2019-01-16 17:31:29</i-->矿山地质环境保护科普片（1）.mp4</li>
+                                                                        <li data-vsrc="http://video.cetv.cn/2019/0116/110fdc026571d52c59f8a725b6bb079asd/index.mp4" data-vid="39764" data-thumb="http://img.cetv.cn/a/10001/201901/ffbca74a289e299f4e46850f0e87823f.jpeg" class="click_play"><!--i class="time">2019-01-16 17:19:23</i-->矿山地质环境保护科普片（2）.mp4</li>
+                                                                        <li data-vsrc="http://video.cetv.cn/2019/0116/ba1acf8916051a75824ac40307497ab6sd/index.mp4" data-vid="39763" data-thumb="http://img.cetv.cn/a/10001/201901/fbab8a63294195fdba49ecbe42ecb7a4.jpeg" class="click_play"><!--i class="time">2019-01-16 17:18:03</i-->矿山地质环境保护科普片（3）.mp4</li>
+                                                                        <li data-vsrc="http://video.cetv.cn/2019/0116/f6eda66c46e0ffc340aeb0ac9e8e71f4sd/index.mp4" data-vid="39765" data-thumb="" class="click_play"><!--i class="time">2019-01-16 17:21:35</i-->矿山地质环境保护科普片（4）.mp4</li>
+                                                                        <li data-vsrc="http://video.cetv.cn/2017/0626/3ee5e2f018b19cea6d01e1aac4e37193sd/index.mp4" data-vid="3982" data-thumb="http://img.cetv.cn/a/10001/201706/1d3924f4098a3d9cdfcc88f46e3bae9b.jpeg" class="click_play"><!--i class="time">2017-06-26 18:18:23</i-->那腔那调.mp4</li>
+                                                                        <li data-vsrc="http://video.cetv.cn/2017/0627/da7e24e4dce3ba28c5bf90c0dc1d641fsd/index.mp4" data-vid="4132" data-thumb="http://img.cetv.cn/a/10001/201706/c674b1f3693993679f97967d2453ce19.jpeg" class="click_play"><!--i class="time">2017-06-27 18:28:23</i-->变脸人生.mp4</li>
+                                                                        <li data-vsrc="http://video.cetv.cn/2017/0627/05ecfeafb52e08c43b59c641b4fcb2c6sd/index.mp4" data-vid="4144" data-thumb="http://img.cetv.cn/a/10001/201706/2eb96b8391e0f324d3d024a9a5e4d6a6.jpeg" class="click_play"><!--i class="time">2017-06-27 18:22:28</i-->侗族大歌.mp4</li>
+                                                                        <li data-vsrc="http://video.cetv.cn/2017/0627/7c1e73c1caaedda72655fbab393e9fd7sd/index.mp4" data-vid="4142" data-thumb="http://img.cetv.cn/a/10001/201706/bff491faccd47e8d086be31d5dbd562e.jpeg" class="click_play"><!--i class="time">2017-06-27 18:23:44</i-->苗族苗年.mp4</li>
+                                                                        <li data-vsrc="http://video.cetv.cn/2017/0626/642599927b621770aba8f53618fa624fsd/index.mp4" data-vid="3974" data-thumb="http://img.cetv.cn/a/10001/201706/647b1175ddeade934a6f4d9add60c4ef.jpeg" class="click_play"><!--i class="time">2017-06-26 18:24:03</i-->常书鸿.mp4</li>
+                                                                        <li data-vsrc="http://video.cetv.cn/2017/0626/06d982ee7e08f7be2e571ab011cfd635sd/index.mp4" data-vid="3980" data-thumb="http://img.cetv.cn/a/10001/201706/c4fabe39fe324834faaddbb5323a04b2.jpeg" class="click_play"><!--i class="time">2017-06-26 18:20:47</i-->昆曲寻梦.mp4</li>
+                                                                        <li data-vsrc="http://video.cetv.cn/2017/0626/4792f1e1785025377d85c7ee562049cfsd/index.mp4" data-vid="3984" data-thumb="http://img.cetv.cn/a/10001/201706/2741778d0e44f7d0767050b5213d47ea.jpeg" class="click_play"><!--i class="time">2017-06-26 18:17:26</i-->千年敦煌服饰艺术.mp4</li>
+                                            </ul>
+                    <!-- 节目单 -->
+                    <ul class="play-list2-ul ul playbill" style="height:421px;">
+                        <div class="playbill-inner">
+                            
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <!-- 控制条 -->
+            <div class="f-r bar" style="display:block;">
+                <div class="arrow"></div>
+            </div>
+            
+        </div>
+        <!--视频播放结束-->
+
+        <div class="col">
+
+            <div class="cetv-tv">
+                <!--频道栏目开始-->
+                <h2 class="new-tit"><strong>频道栏目</strong><div id="pd_nav" style="display:none;float:right"><span class="arrow-left"></span><span class="arrow-right"></span></div></h2>
+                <div id="pd_1" class="cetv-tv2 cetv-tv4" style="height: 428px;">
+                                        <dl>
+                        <dt><a href="http://www.centv.cn/zmxg" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/bfd02f9935d5d746c15e25c1f1fe6bba.jpeg"></a></dt>
+                        <dd><a href="http://www.centv.cn/zmxg" target="_blank">最美校歌</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="http://www.centv.cn/z/344295" target="_blank"><img src="http://img.cetv.cn/a/10001/202011/773673163205b16ad2a8b6d8cfb373a1.png"></a></dt>
+                        <dd><a href="http://www.centv.cn/z/344295" target="_blank">星星课本剧</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="/p/335469.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201905/fd69b852b4838d177d1fb8c333860f08.png"></a></dt>
+                        <dd><a href="/p/335469.html" target="_blank">《诗意中国》</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="http://www.centv.cn/zgxy" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/e9fa9010660b0f718d891bb8cfb568eb.jpeg"></a></dt>
+                        <dd><a href="http://www.centv.cn/zgxy" target="_blank">中国校园</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="http://www.centv.cn/zhjd" target="_blank"><img src="http://img.cetv.cn/a/10001/201712/e9479050e36725d002910f5012c93a6b.jpeg"></a></dt>
+                        <dd><a href="http://www.centv.cn/zhjd" target="_blank">中华经典</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="http://www.centv.cn/jlsk" target="_blank"><img src="http://img.cetv.cn/a/10001/201712/821f1dd44666ac89aa4d077808b2b5e9.jpg"></a></dt>
+                        <dd><a href="http://www.centv.cn/jlsk" target="_blank">纪录时刻</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="/p/95120.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/1aea1660bb2eeed3160436319ef29f04.jpg"></a></dt>
+                        <dd><a href="/p/95120.html" target="_blank">国家志</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="/p/95170.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/f3643ecb8aaa6c5df8c90e42d7104c30.jpg"></a></dt>
+                        <dd><a href="/p/95170.html" target="_blank">地方志</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="/p/95238.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/106f7222cc054cc0ffa589e70bfbb2ce.jpg"></a></dt>
+                        <dd><a href="/p/95238.html" target="_blank">科学志</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="/p/95302.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/7aad9f4e154ad5bf819bbfd7d0702a2b.jpg"></a></dt>
+                        <dd><a href="/p/95302.html" target="_blank">艺术志</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="/p/95246.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/47a3d31b5ac2c606bafa947408f995c3.jpg"></a></dt>
+                        <dd><a href="/p/95246.html" target="_blank">人物志</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="/p/95310.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/e50784e4a42293c37e4e57f8433b8cef.jpg"></a></dt>
+                        <dd><a href="/p/95310.html" target="_blank">民族志</a></dd>
+                    </dl>
+                                    </div>
+                <div id="pd_2" class="cetv-tv2 cetv-tv4" style="height: 428px;display:none;">
+                                        <dl>
+                        <dt><a href="/p/95386.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/7a4dbc9d3c11db9138a979efcaa5c5e0.jpg"></a></dt>
+                        <dd><a href="/p/95386.html" target="_blank">企业志</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="http://www.centv.cn/gxxxt" target="_blank"><img src="http://img.cetv.cn/a/10001/201805/f78eb5a02fdc0da7d4d18b7776ce215f.png"></a></dt>
+                        <dd><a href="http://www.centv.cn/gxxxt" target="_blank">国学小学堂</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="/p/95396.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/7292d1214491f1adc5db4a2437e23476.jpg"></a></dt>
+                        <dd><a href="/p/95396.html" target="_blank">家族志</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="/p/95332.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/ca89163c2cc0c4d562e600d58074624b.jpg"></a></dt>
+                        <dd><a href="/p/95332.html" target="_blank">地理志</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="/p/95392.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/1c255fff0806c135f33c62a72d50c642.jpg"></a></dt>
+                        <dd><a href="/p/95392.html" target="_blank">战争志</a></dd>
+                    </dl>
+                                    </div>
+                <!--频道栏目结束-->
+
+                <!—# CETV广告 #—>
+                                <div class="ad-box" style="float:right;margin-top: 20px;margin-bottom:0;"><a href="http://www.centv.cn/cetv4" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/786ad90b2754cb22ee7d4f17c76fbfc3.jpg" width="725" height="100"><!--span class="text">广告</span--></a></div>
+                
+            </div>
+
+            <!--中部海报开始-->
+            <div class="cetv-p3 cetv-p32 focus_con">
+                <ul class="new-list cetv1-topic">
+                    <!—# CETV中部海报 #—>
+                                        <li class="focus_item" ><a href="http://www.centv.cn/p/95120.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/31c4691273cbf146b351610239ec42e2.jpeg" width="352" height="533"></a></li>
+                                        <li class="focus_item" style="display:none;"><a href="http://www.centv.cn/p/95170.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/10a7c77d163d6d398482dbe6dfd74e4a.jpg" width="352" height="533"></a></li>
+                                        <li class="focus_item" style="display:none;"><a href="http://www.centv.cn/p/95238.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/889e3ddbacb6fec82d77b53a3833db24.jpeg" width="352" height="533"></a></li>
+                                        <li class="focus_item" style="display:none;"><a href="http://www.centv.cn/p/95302.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/1350fc9529e4729e58a28077a4bb3ed0.jpg" width="352" height="533"></a></li>
+                                        <li class="focus_item" style="display:none;"><a href="http://www.centv.cn/p/95310.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/bdd2ddfb48ae2ce2cc0476f2f413c515.jpg" width="352" height="533"></a></li>
+                                        <li class="focus_item" style="display:none;"><a href="http://www.centv.cn/cetv4" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/2e619c5db4afd1efbfe2aaf20de9a8e3.jpeg" width="352" height="533"></a></li>
+                                    </ul>
+                <ul class="focus-dot focus_dot" style="margin-top: -30px;">
+                                        <li class="on"></li>
+                                        <li ></li>
+                                        <li ></li>
+                                        <li ></li>
+                                        <li ></li>
+                                        <li ></li>
+                                    </ul>
+                <div class="focus_pg"><a href="javascript:;" class="sider_change" data-type="prev"></a><a href="javascript:;" class="sider_change" data-type="next"></a></div>
+            </div>
+            <!--中部海报结束-->
+
+        </div>
+
+        <!--活动开始-->
+        <div class="col">
+
+            
+                       <h2 class="new-tit"><strong><a href="/cetv4hd">活动<i class="gt">&gt;</i></a></strong></h2>
+            
+
+            <div class="cetv-tv">
+                <div class="cetv-tv1">
+                                        <a href="/p/376257.html" target="_blank">
+                        <dl>
+                            <dt><img src="http://img.cetv.cn/a/10001/202011/f4ec38b51b0e1677947265a913d6f9b5.png"></dt>
+                            <dd>
+                                <h3>向中国共产党百年华诞献礼 诗意中国红色记忆</h3>
+                                <!--<p>为了迎接党的百年华诞的到来，唤醒红色记忆，重塑坚定信仰，我们正在策划以多媒体朗诵情景剧的方式，把中国共产党一路走来的伟大历程展现出来。</p>-->
+                            </dd>
+                        </dl>
+                    </a>
+                                    </div>
+                <div class="cetv-tv2">
+                                        <dl>
+                        <dt><a href="/p/345218.html" target="_blank"><img src="http://img.cetv.cn/a/10001/202001/c4af56cd5a6c94b59e2cd5ac4136135e.jpg"></a></dt>
+                        <dd><a href="/p/345218.html" target="_blank">遨游视海 乐育英才.mp4</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="/p/339616.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201908/16b4d06509edae488d4468a157ffeca4.png"></a></dt>
+                        <dd><a href="/p/339616.html" target="_blank">暑期安全教育公开课.mp4</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="http://www.centv.cn/cfhy" target="_blank"><img src="http://img.cetv.cn/a/10001/201712/f4139e504b61b032e1cc08a770b37e1e.jpg"></a></dt>
+                        <dd><a href="http://www.centv.cn/cfhy" target="_blank">春风化雨</a></dd>
+                    </dl>
+                                        <dl>
+                        <dt><a href="/p/562.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/c7dd30edaefda9d4edd318f61fd17cda.jpg"></a></dt>
+                        <dd><a href="/p/562.html" target="_blank">青春之歌-最美校歌评选活动</a></dd>
+                    </dl>
+                                    </div>
+            </div>
+
+            <div class="cetv-hot" style="margin-top: -19px;">
+                <ul class="new-list">
+                                    </ul>
+            </div>
+
+        </div>
+        <!--活动结束-->
+
+        <div class="col">
+
+            <!--主持人开始-->
+            <h2 class="new-tit"><strong>主持人</strong></h2>
+            <div class="cetv-tv2 cetv-tv6">
+                <!—# CETV1主持人 #—>
+                                <dl>
+                    <dt><a href="/p/95102.html" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/d0fe449290e0e9a9affac914ab4efce7.jpg"></a></dt>
+                    <dd><a href="/p/95102.html" target="_blank">德格玛雅</a></dd>
+                </dl>
+                            </div>
+            <!--主持人结束-->
+
+        </div>
+
+
+        <!—# CETV广告1 #—>
+                <div class="ad-box"><a href="http://www.centv.cn/cetv4" target="_blank"><img src="http://img.cetv.cn/a/10001/201706/4e5a989e394f0b1acb011a216363e221.jpg" width="1100" height="100"><!--span class="text">广告</span--></a></div>
+        
+    </div>
+
+    <!-- 页脚 -->
+    <div id="footer">
+	<ul>
+		<li><a href="http://www.centv.cn/p/322631.html" target="_blank">关于CETV</a></li>
+		<li><a href="http://www.centv.cn/p/281482.html" target="_blank">网站声明</a></li>
+		<li><a href="http://www.centv.cn/p/281484.html" target="_blank">广告服务</a></li>
+		<li><a href="http://www.centv.cn/p/281486.html" target="_blank">合作加盟</a></li>
+		<li><a href="http://www.centv.cn/p/325000.html" target="_blank">联系我们</a></li>
+	</ul>
+	<p>2017 中国教育电视台 网络视听许可证0108262号|京ICP备京ICP备10056327号-1 京公网安备1101020030&nbsp;&nbsp;<br>
+	10056327	</p>
+</div>
+
+<script type="text/javascript" src="http://res.cetv.cn/t/site/10001/d19dcef4610d4b40d3bebc30397b93e3/assets//js/new_cc.js?t=3"></script>
+<!-- Cmstop pv 统计代码，勿删 -->
+<script type="text/javascript">
+    var shareVariable = {
+        sid: '10001',
+        aid: '0',
+        cid: '0',
+        suffix: '.cetv.cn'
+    };
+    window.TJ = 'http://tj.cetv.cn/tj.gif';
+
+    (function() {
+        var unique = (function () {
+            var time= (new Date()).getTime()+'-', i=0;
+            return function () {
+                return time + (i++);
+            }
+        })();
+        var imgLog = function (url) {
+            var data = window['imgLogData'] || (window['imgLogData'] = {});
+            var img = new Image();
+            var uid = unique();
+            img.onload = img.onerror = function () {//销毁一些对象
+                img.onload = img.onerror = null;
+                img = null;
+                delete data[uid];
+            };
+            img.src = url + '&_uid=' + uid;
+        };
+        var src = window.TJ + '?sid=' + shareVariable.sid + '&cid=' + shareVariable.cid + '&aid=' + shareVariable.aid + '&url='+location.href;
+        imgLog(src);
+        
+        //var src = window.TJ + '?sid=' + shareVariable.sid + '&cid=' + shareVariable.cid + '&aid=' + shareVariable.aid + '&url='+location.href;
+        //$.get(src);
+
+        // var imgLog = function (url) {
+        //     var img = new Image();
+        //     img.onload = img.onerror = function () {//销毁一些对象
+        //         img.onload = img.onerror = null;
+        //         img = null;
+        //     };
+        //     img.src = url;
+        // };
+        // 聚合页面统计代码
+        $('.pv-nav-stat').click(function () {
+	    var sid = '10001'
+	    var aid = -1
+	    var cid = $(this).data('cid')
+            var type = $(this).data('type')
+            var url = $(this).prop('href')
+            if (!url) return
+	    var src = window.TJ + '?sid=' + sid + '&cid=' + cid + '&aid=' + aid + '&action=pv' + '&url='+url + '&type=pc'
+	    imgLog(src);
+	    return true
+        })
+    })();
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?96883f0b40f94e2cba06134b4b0f8404";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</div>
+
+<script type="text/javascript" src="http://res.cetv.cn/t/site/10001/d19dcef4610d4b40d3bebc30397b93e3/assets//js/common.js"></script>
+<script type="text/javascript" src="http://res.cetv.cn/t/site/10001/d19dcef4610d4b40d3bebc30397b93e3/assets//js/stream2.js"></script>
+<script type="text/javascript" src="http://res.cetv.cn/assets/js/date-format.js"></script>
+<script type="text/javascript" src="http://res.cetv.cn/t/site/10001/d19dcef4610d4b40d3bebc30397b93e3/assets//js/nicescroll/jquery.nicescroll.min.js"></script>
+<script>
+                    //$v_id 对应的是分类id 
+    //$v_id 对应的是分类id 
+    window.content = {"id":"188","type":"1","name":"CETV4","thumb":"","player":"<iframe class=\"play_iframe\" src=\"http:\/\/app.cetv.cn\/video\/player\/index?vid=188&thumb=&sid=10001&autoStart=1&customid=10001&type=stream\" allowfullscreen frameborder=\"0\"><\/iframe>"};
+    window.playerUrl = 'http://app.centv.cn/video/player/index';
+    $(function () {
+        //stream.content.init();
+    })
+    //if(60 == 62){
+        window.onload=function(){
+        //    $('.change_tab li').first().click()
+        //    $('.change_list ul li').first().click();
+        }
+    //}
+    //$('.change_tab li').on('click',function(){
+    //    $('.change_list ul li').first().click();
+    //})
+    // 翻页 
+    var $pd_1 = $('#pd_1');
+    var $pd_2 = $('#pd_2');
+    if($pd_2.find('dl').length){
+        $('#pd_nav').show();
+    }
+    $('.arrow-right').on('click', function(){
+        $pd_1.hide();
+        $pd_2.show();
+        $(this).css('border-left', '15px solid #ccc');
+        $('.arrow-left').css('border-right', '15px solid #999');
+    })
+    $('.arrow-left').on('click', function(){
+        $pd_2.hide();
+        $pd_1.show();
+        $(this).css('border-right', '15px solid #ccc');
+        $('.arrow-right').css('border-left', '15px solid #999');
+    })
+    
+</script>
+<script type="text/javascript" src="http://res.cetv.cn/t/site/10001/d19dcef4610d4b40d3bebc30397b93e3/assets//js/new_cc.js"></script>
+</body>
+
+</html>
