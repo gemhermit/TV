@@ -4,106 +4,6 @@
   
     
     <entry>
-      <title>CGTN</title>
-      <link href="https://tv.bago.ink/live/1001/"/>
-      <url>https://tv.bago.ink/live/1001/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 国际台 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 中国 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>CGTN俄语</title>
-      <link href="https://tv.bago.ink/live/1003/"/>
-      <url>https://tv.bago.ink/live/1003/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 国际台 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 中国 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>CGTN法语</title>
-      <link href="https://tv.bago.ink/live/1004/"/>
-      <url>https://tv.bago.ink/live/1004/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 国际台 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 中国 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>CGTN西语</title>
-      <link href="https://tv.bago.ink/live/1002/"/>
-      <url>https://tv.bago.ink/live/1002/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 国际台 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 中国 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>CGTN记录</title>
       <link href="https://tv.bago.ink/live/1006/"/>
       <url>https://tv.bago.ink/live/1006/</url>
@@ -154,6 +54,106 @@
     
     
     <entry>
+      <title>CGTN法语</title>
+      <link href="https://tv.bago.ink/live/1004/"/>
+      <url>https://tv.bago.ink/live/1004/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 国际台 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 中国 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CGTN俄语</title>
+      <link href="https://tv.bago.ink/live/1003/"/>
+      <url>https://tv.bago.ink/live/1003/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 国际台 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 中国 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CGTN西语</title>
+      <link href="https://tv.bago.ink/live/1002/"/>
+      <url>https://tv.bago.ink/live/1002/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 国际台 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 中国 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CGTN</title>
+      <link href="https://tv.bago.ink/live/1001/"/>
+      <url>https://tv.bago.ink/live/1001/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 国际台 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 中国 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>FASHIONTV</title>
       <link href="https://tv.bago.ink/live/FTV/"/>
       <url>https://tv.bago.ink/live/FTV/</url>
@@ -170,6 +170,31 @@
       <title>NHKWorld</title>
       <link href="https://tv.bago.ink/live/1008/"/>
       <url>https://tv.bago.ink/live/1008/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 国际台 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 日本 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>NHK华语视界</title>
+      <link href="https://tv.bago.ink/live/1009/"/>
+      <url>https://tv.bago.ink/live/1009/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -580,6 +605,31 @@
     
     
     <entry>
+      <title>厦门卫视</title>
+      <link href="https://tv.bago.ink/live/71/"/>
+      <url>https://tv.bago.ink/live/71/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 福建省 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 卫视台 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>青海卫视</title>
       <link href="https://tv.bago.ink/live/69/"/>
       <url>https://tv.bago.ink/live/69/</url>
@@ -783,6 +833,12 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> 新疆 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1251,6 +1307,19 @@
     
     
     <entry>
+      <title>央视新闻</title>
+      <link href="https://tv.bago.ink/live/21/"/>
+      <url>https://tv.bago.ink/live/21/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CCTV-4K</title>
       <link href="https://tv.bago.ink/live/20/"/>
       <url>https://tv.bago.ink/live/20/</url>
@@ -1632,32 +1701,6 @@
     
     
     <entry>
-      <title>NHK华语视界</title>
-      <link href="https://tv.bago.ink/live/1009/"/>
-      <url>https://tv.bago.ink/live/1009/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>中国教育2</title>
-      <link href="https://tv.bago.ink/live/cetv2/"/>
-      <url>https://tv.bago.ink/live/cetv2/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>中国教育1</title>
       <link href="https://tv.bago.ink/live/cetv1/"/>
       <url>https://tv.bago.ink/live/cetv1/</url>
@@ -1687,6 +1730,19 @@
       <title>中国教育4</title>
       <link href="https://tv.bago.ink/live/cetv4/"/>
       <url>https://tv.bago.ink/live/cetv4/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>中国教育2</title>
+      <link href="https://tv.bago.ink/live/cetv2/"/>
+      <url>https://tv.bago.ink/live/cetv2/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1729,6 +1785,19 @@
     
     
     <entry>
+      <title>英国MTV</title>
+      <link href="https://tv.bago.ink/live/mtv/"/>
+      <url>https://tv.bago.ink/live/mtv/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>萧山综合</title>
       <link href="https://tv.bago.ink/live/xszh/"/>
       <url>https://tv.bago.ink/live/xszh/</url>
@@ -1742,9 +1811,22 @@
     
     
     <entry>
-      <title>英国MTV</title>
-      <link href="https://tv.bago.ink/live/mtv/"/>
-      <url>https://tv.bago.ink/live/mtv/</url>
+      <title>bestTV-4K</title>
+      <link href="https://tv.bago.ink/live/best/"/>
+      <url>https://tv.bago.ink/live/best/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>中国天气</title>
+      <link href="https://tv.bago.ink/live/zgtq/"/>
+      <url>https://tv.bago.ink/live/zgtq/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1763,6 +1845,12 @@
       
       
       
+        <tags>
+            
+            <tag> 新疆 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -1775,6 +1863,12 @@
         <content type="html"><![CDATA[]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 新疆 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1789,6 +1883,12 @@
       
       
       
+        <tags>
+            
+            <tag> 新疆 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -1801,6 +1901,12 @@
         <content type="html"><![CDATA[]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 新疆 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1815,6 +1921,12 @@
       
       
       
+        <tags>
+            
+            <tag> 新疆 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -1827,6 +1939,12 @@
         <content type="html"><![CDATA[]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 新疆 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1841,6 +1959,12 @@
       
       
       
+        <tags>
+            
+            <tag> 新疆 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -1853,6 +1977,12 @@
         <content type="html"><![CDATA[]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 新疆 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1867,6 +1997,12 @@
       
       
       
+        <tags>
+            
+            <tag> 新疆 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -1880,6 +2016,12 @@
       
       
       
+        <tags>
+            
+            <tag> 新疆 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -1892,6 +2034,12 @@
         <content type="html"><![CDATA[]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 新疆 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2634,6 +2782,12 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> 广东省 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -5103,6 +5257,19 @@
     
     
     <entry>
+      <title>CCTV电视指南</title>
+      <link href="https://tv.bago.ink/live/36/"/>
+      <url>https://tv.bago.ink/live/36/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CCTV卫生健康</title>
       <link href="https://tv.bago.ink/live/35/"/>
       <url>https://tv.bago.ink/live/35/</url>
@@ -5249,19 +5416,6 @@
       <title>CCTV第一剧场</title>
       <link href="https://tv.bago.ink/live/22/"/>
       <url>https://tv.bago.ink/live/22/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>CCTV电视指南</title>
-      <link href="https://tv.bago.ink/live/21/"/>
-      <url>https://tv.bago.ink/live/21/</url>
       
         <content type="html"><![CDATA[]]></content>
       
