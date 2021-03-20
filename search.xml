@@ -1761,6 +1761,12 @@
       
       
       
+        <tags>
+            
+            <tag> 浙江省 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -1827,6 +1833,64 @@
       <title>中国天气</title>
       <link href="https://tv.bago.ink/live/zgtq/"/>
       <url>https://tv.bago.ink/live/zgtq/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>绍兴新闻综合</title>
+      <link href="https://tv.bago.ink/live/sxtv/"/>
+      <url>https://tv.bago.ink/live/sxtv/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>南京新闻综合</title>
+      <link href="https://tv.bago.ink/live/njxwzh/"/>
+      <url>https://tv.bago.ink/live/njxwzh/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 江苏省 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>南京教科频道</title>
+      <link href="https://tv.bago.ink/live/null/"/>
+      <url>https://tv.bago.ink/live/null/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>福州新闻综合</title>
+      <link href="https://tv.bago.ink/live/fzxw/"/>
+      <url>https://tv.bago.ink/live/fzxw/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -2054,6 +2118,12 @@
       
       
       
+        <tags>
+            
+            <tag> 浙江省 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -2067,6 +2137,12 @@
       
       
       
+        <tags>
+            
+            <tag> 浙江省 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -2079,6 +2155,12 @@
         <content type="html"><![CDATA[]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 浙江省 </tag>
+            
+        </tags>
       
     </entry>
     
